@@ -1,0 +1,12 @@
+Primary Colors:
+Dark Blue (#1B263B): A deep, calming blue for the background, representing trust and professionalism.
+Electric Blue (#4A90E2): A vibrant blue for highlights, buttons, and links, adding a modern and dynamic feel.
+Secondary Colors:
+Bright Cyan (#2AC3F3): A bright cyan for secondary buttons or accents, giving a tech-savvy vibe.
+Mint Green (#28C76F): A fresh green for success messages or growth indicators, symbolizing progress and positivity.
+Accent Colors:
+Golden Yellow (#FFC107): A warm yellow for notifications or alerts, capturing attention without being too harsh.
+Red (#FF4C4C): A bold red for error messages or declines, clearly indicating issues.
+Neutrals:
+Light Gray (#F0F2F5): A very light gray for backgrounds or sections to create contrast without overwhelming the main content.
+Medium Gray (#B0BEC5): A medium gray for text and secondary content, providing a clean and readable look.
