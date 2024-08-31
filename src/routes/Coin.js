@@ -120,3 +120,9 @@ const Coin = () => {
 };
 
 export default Coin;
+
+/*Optional Chaining: Used optional chaining (?.) to safely access nested properties. This helps prevent errors when properties like coin.market_data or coin.image are undefined.
+
+Fallback Values: Used ?? 'N/A' to provide fallback values for cases when data is missing or undefined. This ensures that the UI doesn't break and displays a placeholder instead.
+
+Corrected Typo in Table Header: Changed from 1yr to 1y for consistency.*/
