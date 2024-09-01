@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "./Coin.css";
+import DOMPurify from "dompurify";
 
 const Coin = () => {
   const params = useParams();
@@ -111,7 +112,13 @@ const Coin = () => {
         <div className="content">
           <div className="about">
             <h3>About</h3>
-            <p>{coin.description?.en ?? "No description available"}</p>
+            <p
+              dangerouslySetInnerHTML={{
+                __html: DOMPurify.sanitize(
+                  coin.description ? coin.description.en : ""
+                ),
+              }}
+            ></p>
           </div>
         </div>
       </div>
