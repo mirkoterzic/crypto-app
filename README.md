@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# Crypto App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React application that fetches and displays cryptocurrency data using the CoinGecko API. The app features a list of cryptocurrencies, detailed coin information, and navigation via a responsive UI.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+**<a href="https://mirkoterzic.github.io/crypto-app/" target="_blank">You can view the live demo of the project here</a>**
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Coin List**: Displays a list of cryptocurrencies with their current price, market rank, and other details.
+- **Coin Details**: Provides detailed information about a selected cryptocurrency, including price trends, market data, and descriptions.
+- **Responsive Design**: Fully responsive layout for various screen sizes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **React**: JavaScript library for building user interfaces.
+- **React Router**: For handling routing within the app.
+- **Axios**: For making HTTP requests.
+- **DOMPurify**: To sanitize HTML content .
+- **React Icons**: Collection of popular icons for React.
+- **gh-pages**: Utility for deploying to GitHub Pages.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run this project locally, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+1. **Clone the Repository:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   git clone https://github.com/mirkoterzic/cryto-app.git
+2. **Navigate to the Project Directory:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   cd cryto-app
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Install Dependencies:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm install
+   
+3. **Set Up Environment Variables:**
+   
+   Create a **.env** file in the root directory ,get your **CoinGecko API key** [here](https://www.coingecko.com/en/api) and add it to your .env file like this  :
 
-## Learn More
+   **DO NOT FORGET TO ADD .env TO .gitignore**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   REACT_APP_API_URL= <>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   REACT_APP_API_COIN_URL=<>
 
-### Code Splitting
+5. **Start the Development Server:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```bash
+   npm start
 
-### Analyzing the Bundle Size
+  **Your application will be available at [http://localhost:3000](http://localhost:3000)**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+  ## Scripts
 
-### Making a Progressive Web App
+- `npm start`: Starts the development server.
+- `npm run build`: Builds the application for production.
+- `npm run deploy`: Deploys the build directory to GitHub Pages.
+- `npm test`: Runs the tests.
+- `npm run eject`: Ejects the configuration files (use with caution).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Coin Gecko API** - For providing the data on  cryptocurrencies.
+- **React** - The library used for building the UI.
+- **GitHub Pages** - For hosting the live demo.
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Author
 
-### `npm run build` fails to minify
+**Mirko Terzic**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**<a href="https://github.com/mirkoterzic" target="_blank">GitHub</a>**
+
+**<a href="https://www.linkedin.com/in/mirkoterzic/" target="_blank">LinkedIn</a>**
+
+**<a href="https://leetcode.com/u/mirko_terzic/" target="_blank">LeetCode</a>**
+
+**<a href="https://www.frontendmentor.io/profile/mirkoterzic" target="_blank">Frontedn Mentor Profile</a>**
+
+
+
+
+   
